@@ -1,8 +1,8 @@
 {
     "name": "mlgc-submission",
     "version": "1.0.0",
-    "description": "Branch ini digunakan untuk modul Studi Kasus: Membangun Aplikasi Machine Learning Dengan Google Cloud.",
-    "main": "src/server/server.js",
+    "description": "",
+    "main": "./src/server/server.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "start:dev": "nodemon ./src/server/server.js",
@@ -14,13 +14,11 @@
     "dependencies": {
         "@google-cloud/firestore": "^7.7.0",
         "@hapi/hapi": "^21.3.9",
-        "@tensorflow/tfjs-node": "^4.19.0",
+        "@tensorflow/tfjs-node": "^4.14.0",
         "cors": "^2.8.5",
         "dotenv": "^16.4.5",
         "express": "^4.19.2",
-        "multer": "^1.4.5-lts.1"
-    },
-    "devDependencies": {
-        "nodemon": "^3.1.0"
+        "multer": "^1.4.5-lts.1",
+        "nodemon": "^3.1.1"
     }
 }
