@@ -1,5 +1,5 @@
 {
-    "name": "serta-mulia",
+    "name": "mlgc-submission",
     "version": "1.0.0",
     "description": "Branch ini digunakan untuk modul Studi Kasus: Membangun Aplikasi Machine Learning Dengan Google Cloud.",
     "main": "src/server/server.js",
